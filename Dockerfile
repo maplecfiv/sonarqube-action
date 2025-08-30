@@ -11,5 +11,5 @@ LABEL homepage="https://kitabisa.github.io"
 LABEL maintainer="dwisiswant0"
 
 COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+#RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
